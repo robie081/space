@@ -1,6 +1,7 @@
 
 body {
     background-color: #f9fafb;
+    overflow-x: hidden;
 }
 
 .primary-header {
