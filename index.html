@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar Kevin Powell</title>
+    <title>Space</title>
     <link rel="stylesheet" href="minireset.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="primary-header flex">
-
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <span class="sr-only">Menu</span>
+    <header class="primary-header">
+        <button class="nav-hamburger-button-root">
+                <div class="nav-hamburger-button-box">
+                    <div class="nav-hamburger-button-inner"></div>
+                </div>
         </button>
+        
         <nav>
-            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+            <ul class="primary-navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Destination</a></li>
                 <li><a href="#">Crew</a></li>
                 <li><a href="#">Technology</a></li>
             </ul>
         </nav>
+
+        <div class="logo">
+            <img src="./hamagia.jpg" alt="the thinker of hamagia">
+        </div>
     </header>
     
 </body>
