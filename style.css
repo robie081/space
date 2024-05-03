@@ -115,7 +115,7 @@ button {
     transform: rotate(-90deg);
 }
 
-@media (min-width: 568px) { 
+@media (min-width: 588px) { 
 
     /* Precious -- Hover over pseudo elements like ::after and ::before */
 
