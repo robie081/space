@@ -28,6 +28,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
     color: #1f2937;
+    letter-spacing: .5px;
 }
 
 /* Hamburger */
@@ -114,7 +115,7 @@ button {
     transform: rotate(-90deg);
 }
 
-@media (min-width: 600px) { 
+@media (min-width: 568px) { 
 
     /* Precious -- Hover over pseudo elements like ::after and ::before */
 
@@ -124,6 +125,14 @@ button {
 
     .nav-hamburger-button-inner.isExpanded.isHovered::after {
         background-color: #f87171;
+    }
+
+    .logo br {
+        display: none;
+    }
+
+    .logo span {
+        margin-inline: .25rem;
     }
 }
 
