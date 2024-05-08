@@ -33,3 +33,11 @@ hamburgerButton.addEventListener('click', () => {
     nav.classList.toggle('active');
 
 });
+
+// const dayNight = document.querySelector('.day-night');
+// const main = document.querySelector('main');
+
+// dayNight.addEventListener('click', () => {
+//     main.classList.toggle('dark');
+//     // dayNight.classList.toggle('dark');
+// });

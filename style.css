@@ -156,49 +156,35 @@ button {
         background-color: #f87171;
     }
 
-    .logo br {
-        display: none;
-    }
-
-    .logo span {
-        margin-inline: .25rem;
+    .social-icons {
+        /* border: 2px solid plum; */
+        /* flex-basis: 20%; */
     }
 }
 
-/* .primary-navigation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #f7f7f7;
-    transform: translateX(-100%);
-    transition: 0.5s;
-} */
-
-/* .primary-navigation.active {
-    transform: translateX(0);
-}  */
-
-/* .primary-navigation {
-    border: 2px solid orange;
+.day-night {
+    /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-} */
+    align-items: center;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #0f0d0e;
+    color: #f9f4da;
+}
 
 /* Social Icons */
 
 .social-icons {
-    flex-basis: 20%;
+    flex-basis: 30%;
 }
 
 .social-icons ul {
     /* border: 2px solid orange; */
     display: flex;
     justify-content: space-around;
+    /* width: 25vw; */
 }
 
 i {
