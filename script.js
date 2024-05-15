@@ -34,10 +34,21 @@ hamburgerButton.addEventListener('click', () => {
 
 });
 
-// const dayNight = document.querySelector('.day-night');
-// const main = document.querySelector('main');
+const dayNight = document.querySelector('.day-night');
+const solSvg = document.getElementById('sol-svg');
+const body = document.querySelector('body');
 
-// dayNight.addEventListener('click', () => {
-//     main.classList.toggle('dark');
-//     // dayNight.classList.toggle('dark');
-// });
+dayNight.addEventListener('click', () => {
+    body.classList.toggle('dark');
+    hamburger.classList.toggle('night');
+    // hamburger.style.color = '#f9f4da';
+    // hamburger.style.backgroundColor = '#0f0d0e';
+    // solSvg.setAttribute('fill', '#ccc');
+    console.log(solSvg.style.fill);
+    if (solSvg.style.fill === '') {
+        solSvg.style.fill = '#f9f4da';
+    } else {
+        solSvg.style.fill = '';
+    }
+    
+});
