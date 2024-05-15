@@ -139,8 +139,20 @@ button {
 .nav-hamburger-button-inner.night::before {
     background-color: #f9f4da;
 }
+
 .nav-hamburger-button-inner.night::after {
     background-color: #f9f4da;
+}
+
+.nav-hamburger-button-inner.night.isExpanded {
+    background-color: #e7131a;
+}
+
+.nav-hamburger-button-inner.night.isExpanded::before {
+    background-color: #e7131a;
+}
+.nav-hamburger-button-inner.night.isExpanded::after {
+    background-color: #e7131a;
 }
 
 @media (min-width: 588px) { 
