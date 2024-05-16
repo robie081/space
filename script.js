@@ -46,7 +46,8 @@ dayNight.addEventListener('click', () => {
     // solSvg.setAttribute('fill', '#ccc');
     console.log(solSvg.style.fill);
     if (solSvg.style.fill === '') {
-        solSvg.style.fill = '#f9f4da';
+        // solSvg.style.fill = '#f9f4da';
+        solSvg.style.fill = '#111827';
     } else {
         solSvg.style.fill = '';
     }
