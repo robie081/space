@@ -35,16 +35,22 @@ hamburgerButton.addEventListener('click', () => {
 });
 
 const dayNight = document.querySelector('.day-night');
+
 const solSvg = document.getElementById('sol-svg');
 const body = document.querySelector('body');
+
+const linkedin = document.querySelector('.linkedin');
+const github = document.querySelector('.github');
 
 dayNight.addEventListener('click', () => {
     body.classList.toggle('dark');
     hamburger.classList.toggle('night');
+
     // hamburger.style.color = '#f9f4da';
     // hamburger.style.backgroundColor = '#0f0d0e';
     // solSvg.setAttribute('fill', '#ccc');
-    console.log(solSvg.style.fill);
+    // console.log(solSvg.style.fill);
+    
     if (solSvg.style.fill === '') {
         // solSvg.style.fill = '#f9f4da';
         solSvg.style.fill = '#111827';
@@ -52,4 +58,6 @@ dayNight.addEventListener('click', () => {
         solSvg.style.fill = '';
     }
     
+    linkedin.classList.toggle('darky');
+    github.classList.toggle('darky');
 });

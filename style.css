@@ -145,15 +145,15 @@ button {
 /* Dark */
 
 .nav-hamburger-button-inner.night {
-    background-color: #f9f4da;
+    background-color: #111827;
 }
 
 .nav-hamburger-button-inner.night::before {
-    background-color: #f9f4da;
+    background-color: #111827;
 }
 
 .nav-hamburger-button-inner.night::after {
-    background-color: #f9f4da;
+    background-color: #111827;
 }
 
 .nav-hamburger-button-inner.night.isExpanded {
@@ -341,6 +341,10 @@ main {
 /* About -- footer */
 /* Social Icons */
 
+.social-icons {
+    margin-bottom: 3rem;
+}
+
 .social-icons ul {
     /* border: 2px solid orange; */
     display: flex;
@@ -354,6 +358,14 @@ main {
     font-size: 24px;
     color: #f9f4da;
     margin: 1rem;
+}
+
+.linkedin.darky {
+    color: #374151;
+}
+
+.github.darky {
+    color: #374151;
 }
 
 /* Poetry */
