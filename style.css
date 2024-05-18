@@ -146,28 +146,28 @@ button {
     transform: rotate(-90deg);
 }
 
-/* Dark */
+/* Light background dark hamburger */
 
-.nav-hamburger-button-inner.night {
+.nav-hamburger-button-inner.dark {
     background-color: #111827;
 }
 
-.nav-hamburger-button-inner.night::before {
+.nav-hamburger-button-inner.dark::before {
     background-color: #111827;
 }
 
-.nav-hamburger-button-inner.night::after {
+.nav-hamburger-button-inner.dark::after {
     background-color: #111827;
 }
 
-.nav-hamburger-button-inner.night.isExpanded {
+.nav-hamburger-button-inner.dark.isExpanded {
     background-color: #e7131a;
 }
 
-.nav-hamburger-button-inner.night.isExpanded::before {
+.nav-hamburger-button-inner.dark.isExpanded::before {
     background-color: #e7131a;
 }
-.nav-hamburger-button-inner.night.isExpanded::after {
+.nav-hamburger-button-inner.dark.isExpanded::after {
     background-color: #e7131a;
 }
 
@@ -178,7 +178,7 @@ button {
     cursor: pointer;
 }
 
-.dark {
+.light {
     /* background-color: #0f0d0e; */
     /* color: #f9f4da; */
 
@@ -256,7 +256,7 @@ main {
 }
 
 .work {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 1rem 0;
     padding: 1.5rem 0;
 }
