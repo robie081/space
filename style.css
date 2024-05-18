@@ -28,6 +28,7 @@ body {
     height: 100vh;
     /* background-color: #f9fafb; */
     overflow-x: hidden;
+    margin-block: 1rem 3rem;
     margin-inline: .5rem;
     background-color: #0f0d0e;
     color: #f9f4da;
@@ -167,36 +168,6 @@ button {
     background-color: #e7131a;
 }
 
-@media (min-width: 588px) { 
-
-    /* Precious -- Hover over pseudo elements like ::after and ::before */
-
-    .nav-hamburger-button-inner.isHovered {
-        background-color: #6b7280;
-    }
-
-    .nav-hamburger-button-inner.isHovered::before {
-        background-color: #6b7280;
-    }
-    .nav-hamburger-button-inner.isHovered::after {
-        background-color: #6b7280;
-    }
-
-
-    .nav-hamburger-button-inner.isExpanded.isHovered {
-        background-color: #f87171;
-    }
-
-    .nav-hamburger-button-inner.isExpanded.isHovered::after {
-        background-color: #f87171;
-    }
-
-    .social-icons {
-        /* border: 2px solid plum; */
-        /* flex-basis: 20%; */
-    }
-}
-
 .day-night {
     /* border: 1px solid red; */
     display: flex;
@@ -261,25 +232,6 @@ ul li {
 ul li a {
     text-decoration: none;
     color: violet;
-}
-
-@media (min-width: 600px) {
-
-    .primary-navigation {
-        border: 2px solid powderblue;
-    
-        width: 20vw;
-        height: 15vh;
-    
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end; */
-    
-        position: absolute;
-        top: 10vh;
-        left: 75vw;
-    }
 }
 
 /* About -- main */
@@ -367,6 +319,57 @@ main {
 .github.darky {
     color: #374151;
 }
+
+@media (min-width: 588px) { 
+
+    /* Navigation */
+    /* Precious -- Hover over pseudo elements like ::after and ::before */
+
+    .nav-hamburger-button-inner.isHovered {
+        background-color: #6b7280;
+    }
+
+    .nav-hamburger-button-inner.isHovered::before {
+        background-color: #6b7280;
+    }
+    .nav-hamburger-button-inner.isHovered::after {
+        background-color: #6b7280;
+    }
+
+
+    .nav-hamburger-button-inner.isExpanded.isHovered {
+        background-color: #f87171;
+    }
+
+    .nav-hamburger-button-inner.isExpanded.isHovered::after {
+        background-color: #f87171;
+    }
+
+    .social-icons {
+        /* border: 2px solid plum; */
+        /* flex-basis: 20%; */
+    }
+}
+
+@media (min-width: 588px) {
+
+    .primary-navigation {
+        border: 2px solid powderblue;
+    
+        width: 20vw;
+        height: 15vh;
+    
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end; */
+    
+        position: absolute;
+        top: 10vh;
+        left: 75vw;
+    }
+}
+
 
 /* Poetry */
 
