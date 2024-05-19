@@ -255,7 +255,7 @@ main {
     padding: 1.5rem 0;
 }
 
-.work {
+.work p {
     font-size: 1.8rem;
     margin: 1rem 0;
     padding: 1.5rem 0;
@@ -270,11 +270,14 @@ main {
 }
 
 .samples {
+    margin-bottom: 2.6rem;
+}
+
+.samples p {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     line-height: 1.56rem;
     font-weight: 600;
-    margin-bottom: 2.6rem;
 }
 
 .samples a {
@@ -382,15 +385,17 @@ main {
 
 /* Poetry */
 
-main div .title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    font-size: 20px;
-    /* line-height: 28px; */
+.poetry {
+    margin-left: 2rem;
 }
 
-.body {
+main div h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+main div p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    /* line-height: 17px; */
 }
