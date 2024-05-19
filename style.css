@@ -29,7 +29,7 @@ body {
     /* height: 100vh; */
     /* background-color: #f9fafb; */
     overflow-x: hidden;
-    margin-block: 1rem 3rem;
+    margin-block: 1rem 4rem;
     margin-inline: .5rem;
     background-color: #0f0d0e;
     color: #f9f4da;
@@ -323,7 +323,30 @@ main {
     color: #374151;
 }
 
-@media (min-width: 588px) { 
+/* Tablet */
+
+@media (min-width: 588px) {
+
+    .primary-navigation {
+        border: 2px solid powderblue;
+    
+        width: 20vw;
+        height: 15vh;
+    
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end; */
+    
+        position: absolute;
+        top: 10vh;
+        left: 40vw;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 992px) { 
 
     /* Navigation */
     /* Precious -- Hover over pseudo elements like ::after and ::before */
@@ -354,24 +377,7 @@ main {
     }
 }
 
-@media (min-width: 588px) {
 
-    .primary-navigation {
-        border: 2px solid powderblue;
-    
-        width: 20vw;
-        height: 15vh;
-    
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end; */
-    
-        position: absolute;
-        top: 10vh;
-        left: 75vw;
-    }
-}
 
 
 /* Poetry */

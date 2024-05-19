@@ -15,17 +15,17 @@ hamburgerButton.addEventListener('click', () => {
 
 // Precious -- Hover over pseudo elements like ::after and ::before
 
-// hamburgerButton.addEventListener('mouseover', () => {
-//     // hamburger.classList.toggle('isHovered');
-//     hamburger.classList.add('isHovered');
-//     // console.log('mouse over');
-// });
+hamburgerButton.addEventListener('mouseover', () => {
+    // hamburger.classList.toggle('isHovered');
+    hamburger.classList.add('isHovered');
+    // console.log('mouse over');
+});
 
-// hamburgerButton.addEventListener('mouseout', () => {
-//     // hamburger.classList.toggle('isHovered');
-//     hamburger.classList.remove('isHovered');
-//     // console.log('mouse out');
-// });
+hamburgerButton.addEventListener('mouseout', () => {
+    // hamburger.classList.toggle('isHovered');
+    hamburger.classList.remove('isHovered');
+    // console.log('mouse out');
+});
 
 hamburgerButton.addEventListener('click', () => {
 
