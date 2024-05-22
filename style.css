@@ -409,7 +409,7 @@ main {
 }
 
 .way {
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .bukowski .way h1 {
@@ -421,6 +421,7 @@ main {
 .bukowski .way p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
+    word-break: break-word;
 }
 
 
