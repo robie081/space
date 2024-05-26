@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
 /* @import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap'); */
 
 * {
@@ -188,7 +188,6 @@ button {
     color: #000;
 }
 
-
 ul li a:hover, i:hover {
     /* color: #4b5563; */
     /* color: #6b7280; */
@@ -347,6 +346,10 @@ main {
         top: 10vh;
         left: 40vw;
     }
+
+    /* svg:hover {
+        fill: #e7131a;
+    } */
 }
 
 /* Desktop */
@@ -408,19 +411,24 @@ main {
     aspect-ratio: 1;
 }
 
-.way {
+.poems {
+    margin-top: 2rem;
     margin-left: 1.5rem;
 }
 
-.bukowski .way h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+.bukowski .poems h1 {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-size: 20px; */
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
     margin-bottom: 2rem;
 }
 
-.bukowski .way p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+.bukowski .poems p {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-size: 16px; */
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
     word-break: break-word;
 }
 
