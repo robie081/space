@@ -258,13 +258,13 @@ main {
 
 .welcome {
     font-size: 4rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem;
     padding: 1.5rem 0;
 }
 
 .work p {
     font-size: 1.8rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem;
     padding: 1.5rem 0;
 }
 
@@ -273,7 +273,7 @@ main {
     font-family: "Nunito", sans-serif;
     font-size: 1.125rem;
     line-height: 1.56rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem;
 }
 
 .samples {
@@ -299,8 +299,8 @@ main {
 } */
 
 .samples p {
-    margin-inline: 2rem;
-    padding: 8px 0;
+    margin-inline: 2.5rem;
+    padding: 0.5rem 0;
 }
 
 /* About -- footer */
@@ -407,7 +407,7 @@ article {
     justify-content: space-between;
     align-items: center;
     margin: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid #a3a3a3;;
 }
 
