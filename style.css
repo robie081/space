@@ -333,67 +333,6 @@ main {
     color: #374151;
 }
 
-/* Tablet */
-
-@media (min-width: 588px) {
-
-    .primary-navigation {
-        border: 2px solid powderblue;
-    
-        width: 20vw;
-        height: 15vh;
-    
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end; */
-    
-        position: absolute;
-        top: 10vh;
-        left: 40vw;
-    }
-
-    /* svg:hover {
-        fill: #e7131a;
-    } */
-}
-
-/* Desktop */
-
-@media (min-width: 992px) { 
-
-    /* Navigation */
-    /* Precious -- Hover over pseudo elements like ::after and ::before */
-
-    .nav-hamburger-button-inner.isHovered {
-        background-color: #6b7280;
-    }
-
-    .nav-hamburger-button-inner.isHovered::before {
-        background-color: #6b7280;
-    }
-    .nav-hamburger-button-inner.isHovered::after {
-        background-color: #6b7280;
-    }
-
-
-    .nav-hamburger-button-inner.isExpanded.isHovered {
-        background-color: #f87171;
-    }
-
-    .nav-hamburger-button-inner.isExpanded.isHovered::after {
-        background-color: #f87171;
-    }
-
-    .social-icons {
-        /* border: 2px solid plum; */
-        /* flex-basis: 20%; */
-    }
-}
-
-
-
-
 /* Poetry */
 
 section {
@@ -487,5 +426,82 @@ article picture img {
     word-break: break-word;
     line-height: 1.3;
 }
+
+
+/* Travel */
+
+.picture-explanation {
+    /* border: 1px solid #f9fafb; */
+    font-family: monospace;
+    margin-inline-start: 1em;
+}
+
+.bukowski div img.slovenia {
+    /* border: 2px solid plum; */
+    margin-block-end: 4px;
+}
+
+/* Tablet */
+
+@media (min-width: 588px) {
+
+    .primary-navigation {
+        border: 2px solid powderblue;
+    
+        width: 20vw;
+        height: 15vh;
+    
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end; */
+    
+        position: absolute;
+        top: 10vh;
+        left: 40vw;
+    }
+
+    /* svg:hover {
+        fill: #e7131a;
+    } */
+}
+
+/* Desktop */
+
+@media (min-width: 992px) { 
+
+    /* Navigation */
+    /* Precious -- Hover over pseudo elements like ::after and ::before */
+
+    .nav-hamburger-button-inner.isHovered {
+        background-color: #6b7280;
+    }
+
+    .nav-hamburger-button-inner.isHovered::before {
+        background-color: #6b7280;
+    }
+    .nav-hamburger-button-inner.isHovered::after {
+        background-color: #6b7280;
+    }
+
+
+    .nav-hamburger-button-inner.isExpanded.isHovered {
+        background-color: #f87171;
+    }
+
+    .nav-hamburger-button-inner.isExpanded.isHovered::after {
+        background-color: #f87171;
+    }
+
+    .social-icons {
+        /* border: 2px solid plum; */
+        /* flex-basis: 20%; */
+    }
+}
+
+
+
+
+
 
 
