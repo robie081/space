@@ -333,7 +333,7 @@ main {
     color: #374151;
 }
 
-/* Poetry */
+/* Poetry, Travel*/
 
 section {
     /* border: 2px solid white; */
@@ -384,22 +384,25 @@ article picture img {
 
 /* Bukowski */
 
-.bukowski {
+.main-section {
     display: flex;
     flex-direction: column;
 }
 
 .intro {
     margin: 1rem 0.5rem;
-    line-height: 1.56;
+    /* line-height: 1.56; */
 }
 
 .intro p {
+    /* border: 1px solid white; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
+    line-height: 1.5;
+    padding: .5rem;
 }
 
-.bukowski div img {
+.main-section div img {
     margin-block: 2rem;
     width: 100%;
     aspect-ratio: 1;
@@ -410,7 +413,7 @@ article picture img {
     margin-left: 1.5rem;
 }
 
-.bukowski .poems h1 {
+.main-section .poems h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     /* font-family: 'EB Garamond', serif;
@@ -418,25 +421,25 @@ article picture img {
     margin-bottom: 2rem;
 }
 
-.bukowski .poems p {
+.main-section .poems p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     /* font-family: 'EB Garamond', serif;
     font-size: 18px; */
     word-break: break-word;
-    line-height: 1.3;
+    line-height: 1.33;
 }
 
 
-/* Travel */
+/* Slovenia */
 
 .picture-explanation {
     /* border: 1px solid #f9fafb; */
     font-family: monospace;
-    margin-inline-start: 1em;
+    margin-inline-start: 1rem;
 }
 
-.bukowski div img.slovenia {
+.main-section div img.slovenia {
     /* border: 2px solid plum; */
     margin-block-end: 4px;
 }
