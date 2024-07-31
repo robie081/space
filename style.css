@@ -195,7 +195,7 @@ ul li a:hover, i:hover {
 }
 
 nav {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     position: fixed;
     top: 0;
     left: 0;
@@ -445,9 +445,9 @@ article picture img {
 @media (min-width: 576px) {
 
     .primary-navigation {
-        border: 2px solid powderblue;
+        /* border: 2px solid powderblue; */
     
-        width: 60vw;
+        width: 50vw;
         /* height: 50vh; */
     
         /* display: flex;
@@ -455,13 +455,13 @@ article picture img {
         justify-content: flex-start;
         align-items: flex-end; */
     
-        /* position: absolute;
+        position: absolute;
         top: 10vh;
-        left: 40vw; */
+        /* left: 10vw; */
     }
 
     nav {
-        width: 60vw;
+        width: 50vw;
     }
 
     /* svg:hover {

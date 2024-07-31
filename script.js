@@ -23,6 +23,10 @@ hamburgerButton.addEventListener('click', () => {
     }
 });
 
+// body.addEventListener('click', () => {
+//     hamburger.classList.remove('isExpanded');
+// });
+
 // Precious -- Hover over pseudo elements like ::after and ::before
 
 hamburgerButton.addEventListener('mouseover', () => {
