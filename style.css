@@ -40,13 +40,13 @@ body {
 .primary-header {
     /* border: 2px solid plum; */
     /* background-color: #f3f4f6; */
-    padding: 16px;
-    position: relative;
+    /* position: relative; */
 
     display: flex;
     justify-content: space-between;
 
     margin-inline: .5rem;
+    padding: 1rem;
 }
 
 /* .logo img {
@@ -67,6 +67,7 @@ body {
 
 button {
     /* display: block; */
+    /* position: fixed; */
     margin: 0;
     padding: 4px;
     background: none;
@@ -194,10 +195,7 @@ ul li a:hover, i:hover {
 }
 
 nav {
-    /* border: 2px solid orange; */
-}
-
-nav {
+    border: 2px solid orange;
     position: fixed;
     top: 0;
     left: 0;
@@ -214,8 +212,14 @@ nav.active {
     transform: translateX(0);
 } 
 
+/* No scroll for cross when menu is open */
+
+.no-scroll {
+    overflow: hidden;
+}
+
 .primary-navigation {
-    /* border: 2px solid powderblue; */
+    /* border: 2px solid lightgreen; */
 
     width: 100vw;
     height: 50vh;
@@ -232,7 +236,7 @@ ul {
 
 ul li {
     /* border: 2px solid lightblue; */
-    padding: 16px;
+    padding: 1rem;
 }
 
 ul li a {
@@ -438,22 +442,26 @@ article picture img {
 
 /* Tablet */
 
-@media (min-width: 588px) {
+@media (min-width: 576px) {
 
     .primary-navigation {
         border: 2px solid powderblue;
     
-        width: 20vw;
-        height: 15vh;
+        width: 60vw;
+        /* height: 50vh; */
     
         /* display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end; */
     
-        position: absolute;
+        /* position: absolute;
         top: 10vh;
-        left: 40vw;
+        left: 40vw; */
+    }
+
+    nav {
+        width: 60vw;
     }
 
     /* svg:hover {

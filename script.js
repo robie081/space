@@ -4,6 +4,8 @@ const hamburger = document.querySelector('.nav-hamburger-button-inner');
 
 // const primaryNav = document.querySelector('.primary-navigation');
 const nav = document.querySelector('nav');
+// const body = document.body;
+const body = document.querySelector('body');
 
 // console.log(hamburger);
 hamburgerButton.addEventListener('click', () => {
@@ -11,6 +13,14 @@ hamburgerButton.addEventListener('click', () => {
     hamburger.classList.toggle('isExpanded');
     
     // console.log('isExpanded');
+
+    // No scroll for cross when menu is open
+
+    if (hamburger.classList.contains('isExpanded')) {
+        body.classList.add('no-scroll');
+    } else {
+        body.classList.remove('no-scroll');
+    }
 });
 
 // Precious -- Hover over pseudo elements like ::after and ::before
@@ -37,7 +47,7 @@ hamburgerButton.addEventListener('click', () => {
 const dayNight = document.querySelector('.day-night');
 
 const solSvg = document.getElementById('sol-svg');
-const body = document.querySelector('body');
+// const body = document.querySelector('body');
 
 // const linkedin = document.querySelector('.linkedin');
 // const github = document.querySelector('.github');
