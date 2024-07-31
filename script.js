@@ -61,6 +61,9 @@ const ul = document.getElementById('social');
 const li = ul.querySelectorAll('.social');
 // console.log(li);
 
+const menuUl = document.querySelector('.primary-navigation');
+const menuLi = menuUl.querySelectorAll('.color');
+
 
 
 dayNight.addEventListener('click', () => {
@@ -86,4 +89,13 @@ dayNight.addEventListener('click', () => {
         let a = item.getElementsByTagName('a')[0];
         a.classList.toggle('darky');
     }
+
+    nav.classList.toggle('light');
+
+    for (let item of menuLi) {
+        let menuItem = item.getElementsByTagName('a')[0];
+        // console.log(menuItem);
+        menuItem.classList.toggle('darky');
+    }
+
 });
