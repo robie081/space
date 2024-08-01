@@ -33,10 +33,9 @@ body {
 
 body {
     /* border: 2px solid orange; */
-    /* height: 100vh; */
     /* background-color: #f9fafb; */
     overflow-x: hidden;
-    margin-block: 1rem 4rem;
+    margin-block: 1rem;
     /* margin-inline: .5rem; */
     background-color: #0f0d0e;
     color: #f9f4da;
@@ -405,6 +404,11 @@ article picture img {
     aspect-ratio: 1;
 }
 
+/* .logar {
+    width: 100%;
+    height: auto;
+} */
+
 /* Bukowski */
 
 .main-section {
@@ -470,7 +474,7 @@ article picture img {
 
     body {
         /* border: 2px solid red; */
-        padding-inline: 1rem;
+        padding-inline: 2rem;
     }
 
     .primary-navigation {
@@ -498,6 +502,22 @@ article picture img {
     } */
 }
 
+@media (min-width: 640px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr minmax(90%, 95%) 1fr;
+    } 
+
+    header, main, footer {
+        grid-column: 2 / 3;
+    }
+
+    body {
+        /* border: 2px solid lightgreen; */
+    }
+}
+
 @media (min-width: 768px) {
 
     /* Grid Tablet */
@@ -512,7 +532,7 @@ article picture img {
     }
 
     body {
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 }
 

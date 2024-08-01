@@ -46,7 +46,21 @@
                 <p>Our first destination was Logar Valley.</p>
             </div>
             <div>
-                <img class="slovenia" src="./assets/logar-valley-mobile.jpg" alt="Logar Valley">
+                <!-- <img class="slovenia" src="./assets/logar-valley-mobile.jpg" alt="Logar Valley"> -->
+
+                <!-- <img class="logar" src="./assets/logar-valley-mobile.jpg" 
+                     srcset="./assets/logar-valley-mobile.jpg 514w,
+                             ./assets/logar-valley-tablet.jpg 804w"
+                     sizes="(max-width: 768px) 514px, 804px"
+                     alt="Logar Valley"> -->
+
+                <picture>
+                    <source srcset="./assets/logar-valley-tablet.jpg" 
+                            media="(min-width: 768px)">
+                    <img src="./assets/logar-valley-mobile.jpg" 
+                         alt="Logar Valley">
+                </picture>
+                
                 <p class="picture-explanation">Logar Valley</p>
             </div>
             <div class="sans-serif">
@@ -98,6 +112,10 @@
             </ul>
         </div>
     </footer>
-    
+    <!-- <script>
+        const logar = document.querySelector('.logar');
+        console.log(logar);
+        console.log(logar.currentSrc);
+    </script> -->
 </body>
 </html>
