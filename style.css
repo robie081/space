@@ -523,7 +523,7 @@ main {
 
     body {
         display: grid;
-        grid-template-columns: 1fr minmax(80%, 90%) 1fr;
+        grid-template-columns: 1fr minmax(85%, 90%) 1fr;
     } 
 
     header, main, footer {
@@ -567,7 +567,7 @@ main {
 
     body {
         display: grid;
-        grid-template-columns: 1fr minmax(70%, 80%) 1fr;
+        grid-template-columns: 1fr minmax(80%, 85%) 1fr;
     } 
 
     header, main, footer {
@@ -613,9 +613,34 @@ main {
 }
 
 @media (min-width: 1156px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr minmax(75%, 80%) 1fr;
+    } 
+
+    header, main, footer {
+        grid-column: 2 / 3;
+    }
  
     body {
         border: 2px solid red;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr minmax(70%, 75%) 1fr;
+    } 
+
+    header, main, footer {
+        grid-column: 2 / 3;
+    }
+ 
+    body {
+        border: 2px solid white;
     }
 }
 
