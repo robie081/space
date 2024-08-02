@@ -28,7 +28,7 @@
         </nav>
 
         <div class="day-night">
-            <svg id="sol-svg" class="sol" stroke="currentColor" fill="#f9f4da" stroke-width="0" viewBox="0 0 16 16" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg">
+            <svg id="sol-svg" stroke="currentColor" fill="#f9f4da" stroke-width="0" viewBox="0 0 16 16" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
                 </path>
             </svg>
@@ -37,16 +37,14 @@
 
     <main>
         <section class="main-section">
-            <div class="sans-serif">
-                <p><i>Where nature comes first</i> is not only a motto in Slovenia but the way it trully feels like.</p>
-                <p>Slovenian people found a way of protecting, enhancing and living in harmony with the natural world, in a sustainable way.</p>
-                <p>It was a refreshing and inspiring revelation.</p>
-            </div>
-            <article class="flex-items">
+            <article>
                 <div class="sans-serif">
-                    <p>Our first destination was Logar Valley, a flat green pasture surrounded by stunning rocky peaks with incredible waterfalls.</p>
-                    <p>It is a great place for cycling and hiking.</p>
+                    <p><i>Where nature comes first</i> is not only a motto in Slovenia but the way it trully feels like.</p>
+                    <p>Slovenian people found a way of protecting, enhancing and living in harmony with the natural world, in a sustainable way.</p>
+                    <p>It was a refreshing and inspiring revelation.</p>
                 </div>
+            </article>
+            <article class="flex-items">
                 <div>
                     <!-- <img class="slovenia" src="./assets/logar-valley-mobile.jpg" alt="Logar Valley"> -->
                     <picture>
@@ -59,65 +57,75 @@
                     </picture>
                     <p class="picture-explanation">Logar Valley</p>
                 </div>
+                <div class="sans-serif">
+                    <p>Our first destination was Logar Valley, a flat green pasture surrounded by stunning rocky peaks with incredible waterfalls.</p>
+                    <p>It is a great place for cycling and hiking.</p>
+                </div>
             </article>
-            <div class="sans-serif">
-                <p>Our journey took us next to lake Bled.</p>
-                <p>We visited the castle and its museum, enjoyed the views from above and walked the path around the shores of the lake.</p>
-            </div>
-            <div>
-                <!-- <img class="slovenia" src="./assets/lake-bled-mobile.jpg" alt="Churck on lake Bled islet"> -->
-                <picture>
-                    <source srcset="./assets/lake-bled-desktop.jpg" 
-                            media="(min-width: 992px)">
-                    <source srcset="./assets/lake-bled-tablet.jpg" 
-                            media="(min-width: 768px)">
-                    <img src="./assets/lake-bled-mobile.jpg" 
-                         alt="Churck on lake Bled islet">
-                </picture>
-                <p class="picture-explanation">Emerald waters of lake Bled</p>
-            </div>
-            <div class="sans-serif">
-                <p>Lake Bled is of glaciar origin and is crystal clear. You can take a boat to the lake's islet and visit the church.</p>
-                <p>I took the plunge and enjoyed a morning swim in this blue flag body of water.</p>
-            </div>
-            <div class="sans-serif">
-                <p>The Soča valley was our last destination.</p>
-            </div>
-            <div>
-                <!-- <img class="slovenia" src="./assets/soca-river-mobile.jpg" alt="Soca river"> -->
-                <picture>
-                    <source srcset="./assets/soca-river-desktop.jpg" 
-                            media="(min-width: 992px)">
-                    <source srcset="./assets/soca-river-tablet.jpg" 
-                            media="(min-width: 768px)">
-                    <img src="./assets/soca-river-mobile.jpg" 
-                         alt="Soca river">
-                </picture>
-                <p class="picture-explanation">Turquoise waters of the Soča river</p>
-            </div>
-            <div class="sans-serif">
-                <p>The Soča river is astonishing beautiful.</p>
-                <p>Turquoise rapids meandering through forested slopes and mountainous peaks.</p>
-                <p>I enjoyed the full force of the rapids on a rafting boat.</p>
-                <p>At times, the mist turns the river into a magical place which engulfs you in serenity.</p>
-            </div>
-            <div>
-                <!-- <img class="slovenia" src="./assets/soca-mist-mobile.jpg" alt="mist over Soca river"> -->
-                <picture>
-                    <source srcset="./assets/soca-mist-desktop.jpg" 
-                            media="(min-width: 992px)">
-                    <source srcset="./assets/soca-mist-tablet.jpg" 
-                            media="(min-width: 768px)">
-                    <img src="./assets/soca-mist-mobile.jpg" 
-                         alt="mist over Soca river">
-                </picture>
-                <p class="picture-explanation">Mist and serenity over the Soča river</p>
-            </div>
-            <div class="sans-serif">
-                <p>People in Slovenia care deeply about their surroundings, so the natural world is pristine and great to enjoy.</p>
-                <p>This should ripple hope that we can be better custodians of our mother Earth.</p>
-                <p>Thank you for leading the way in preserving the natural wonders of our beautiful planet.</p>
-            </div>
+            <article class="flex-items">
+                <div>
+                    <!-- <img class="slovenia" src="./assets/lake-bled-mobile.jpg" alt="Churck on lake Bled islet"> -->
+                    <picture>
+                        <source srcset="./assets/lake-bled-desktop.jpg" 
+                                media="(min-width: 992px)">
+                        <source srcset="./assets/lake-bled-tablet.jpg" 
+                                media="(min-width: 768px)">
+                        <img src="./assets/lake-bled-mobile.jpg" 
+                             alt="Churck on lake Bled islet">
+                    </picture>
+                    <p class="picture-explanation">Emerald waters of lake Bled</p>
+                </div>
+                <div class="sans-serif">
+                    <p>Our journey took us next to lake Bled.</p>
+                    <p>We visited the castle and its museum, enjoyed the views from above and walked the path around the shores of the lake.</p>
+                    <p>Lake Bled is of glaciar origin and is crystal clear. You can take a boat to the lake's islet and visit the church.</p>
+                    <p>I took the plunge and enjoyed a morning swim in this blue flag body of water.</p>
+                </div>
+            </article>
+            <article class="flex-items">
+                <div>
+                    <!-- <img class="slovenia" src="./assets/soca-river-mobile.jpg" alt="Soca river"> -->
+                    <picture>
+                        <source srcset="./assets/soca-river-desktop.jpg" 
+                                media="(min-width: 992px)">
+                        <source srcset="./assets/soca-river-tablet.jpg" 
+                                media="(min-width: 768px)">
+                        <img src="./assets/soca-river-mobile.jpg" 
+                             alt="Soca river">
+                    </picture>
+                    <p class="picture-explanation">Turquoise waters of the Soča river</p>
+                </div>
+                <div class="sans-serif">
+                    <p>The Soča valley was our last destination.</p>
+                    <p>The Soča river is astonishing beautiful.</p>
+                    <p>Turquoise rapids meandering through forested slopes and mountainous peaks.</p>
+                    <p>I enjoyed the full force of the rapids on a rafting boat.</p>
+                </div>
+            </article>
+            <article class="flex-items">
+                <div>
+                    <!-- <img class="slovenia" src="./assets/soca-mist-mobile.jpg" alt="mist over Soca river"> -->
+                    <picture>
+                        <source srcset="./assets/soca-mist-desktop.jpg" 
+                                media="(min-width: 992px)">
+                        <source srcset="./assets/soca-mist-tablet.jpg" 
+                                media="(min-width: 768px)">
+                        <img src="./assets/soca-mist-mobile.jpg" 
+                             alt="mist over Soca river">
+                    </picture>
+                    <p class="picture-explanation">Mist and serenity over the Soča river</p>
+                </div>
+                <div class="sans-serif">
+                    <p>At times, the mist turns the river into a magical place which engulfs you in serenity.</p>
+                </div>
+            </article>
+            <article>
+                <div class="sans-serif">
+                    <p>People in Slovenia care deeply about their surroundings, so the natural world is pristine and great to enjoy.</p>
+                    <p>This should ripple hope that we can be better custodians of our mother Earth.</p>
+                    <p>Thank you for leading the way in preserving the natural wonders of our beautiful planet.</p>
+                </div>
+            </article>
         </section>
     </main>
 

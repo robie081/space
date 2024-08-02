@@ -51,6 +51,16 @@ hamburgerButton.addEventListener('click', () => {
 const dayNight = document.querySelector('.day-night');
 
 const solSvg = document.getElementById('sol-svg');
+
+// dayNight.addEventListener('mouseover', () => {
+//     solSvg.classList.add('isHoveredSvg');
+//     // console.log('mouse over');
+// });
+
+// dayNight.addEventListener('mouseout', () => {
+//     solSvg.classList.remove('isHoveredSvg');
+//     // console.log('mouse out');
+// });
 // const body = document.querySelector('body');
 
 // const linkedin = document.querySelector('.linkedin');
@@ -69,6 +79,8 @@ const menuLi = menuUl.querySelectorAll('.color');
 dayNight.addEventListener('click', () => {
     body.classList.toggle('light');
     hamburger.classList.toggle('dark');
+
+    // console.log(solSvg.style.fill);
 
     if (solSvg.style.fill === '') {
         // solSvg.style.fill = '#f9f4da';
