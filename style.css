@@ -534,23 +534,25 @@ main {
         border: 2px solid orange;
     }
 
-    /* Bukowski */
+    /* Bukowski, Slovenia */
 
-    /* .main-items {
+    .flex-items {
+        /* border: 2px solid white; */
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
     }
 
-    .main-items img {
-        max-height: 400px;
+    .flex-items img {
+        /* max-height: 300px; */
+        flex-basis: 5%;
     }
 
-    .main-items .sans-serif {
+    .flex-items .sans-serif {
+        flex-basis: 95%;
         display: flex;
         flex-direction: column;
         padding: 3rem 0 0 3rem;
-    } */
+    }
 }
 
 /* Desktop */
