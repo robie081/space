@@ -6,6 +6,7 @@ const hamburger = document.querySelector('.nav-hamburger-button-inner');
 const nav = document.querySelector('nav');
 // const body = document.body;
 const body = document.querySelector('body');
+const main = document.querySelector('main');
 
 // console.log(hamburger);
 hamburgerButton.addEventListener('click', () => {
@@ -21,6 +22,14 @@ hamburgerButton.addEventListener('click', () => {
     } else {
         body.classList.remove('no-scroll');
     }
+});
+
+// Remove menu on click of main
+
+main.addEventListener('click', () => {
+
+    hamburger.classList.remove('isExpanded');
+    nav.classList.remove('active');
 });
 
 // body.addEventListener('click', () => {
@@ -51,20 +60,6 @@ hamburgerButton.addEventListener('click', () => {
 const dayNight = document.querySelector('.day-night');
 
 const solSvg = document.getElementById('sol-svg');
-
-// dayNight.addEventListener('mouseover', () => {
-//     solSvg.classList.add('isHoveredSvg');
-//     // console.log('mouse over');
-// });
-
-// dayNight.addEventListener('mouseout', () => {
-//     solSvg.classList.remove('isHoveredSvg');
-//     // console.log('mouse out');
-// });
-// const body = document.querySelector('body');
-
-// const linkedin = document.querySelector('.linkedin');
-// const github = document.querySelector('.github');
 
 const ul = document.getElementById('social');
 // console.log(ul);
