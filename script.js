@@ -30,6 +30,7 @@ main.addEventListener('click', () => {
 
     hamburger.classList.remove('isExpanded');
     nav.classList.remove('active');
+    body.classList.remove('no-scroll');
 });
 
 // body.addEventListener('click', () => {
