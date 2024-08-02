@@ -531,8 +531,26 @@ main {
     }
 
     body {
-        /* border: 2px solid red; */
+        border: 2px solid orange;
     }
+
+    /* Bukowski */
+
+    /* .main-items {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .main-items img {
+        max-height: 400px;
+    }
+
+    .main-items .sans-serif {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0 0 3rem;
+    } */
 }
 
 /* Desktop */
@@ -591,25 +609,7 @@ main {
         width: 30vw;
     } */
 
-    /* Bukowski */
 
-    .main-items {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-
-    .main-items img {
-        max-height: 400px;
-    }
-
-    .main-items .sans-serif {
-        /* border: 2px solid white; */
-        display: flex;
-        flex-direction: column;
-        /* flex-basis: 50%; */
-        padding: 3rem 0 0 3rem;
-    }
 }
 
 @media (min-width: 1156px) {
