@@ -35,8 +35,9 @@ body {
     /* border: 2px solid orange; */
     /* background-color: #f9fafb; */
     overflow-x: hidden;
-    margin-block: 1rem;
+    /* margin-block: 1rem; */
     /* margin-inline: .5rem; */
+    padding-block: 1rem;
     background-color: #0f0d0e;
     color: #f9f4da;
 }

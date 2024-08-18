@@ -42,7 +42,8 @@ main.addEventListener('click', () => {
 hamburgerButton.addEventListener('mouseover', () => {
     // hamburger.classList.toggle('isHovered');
     hamburger.classList.add('isHovered');
-    // console.log('mouse over');
+    // console.log('mouse over', hamburger);
+    // console.log('mouse over', event.type, event.target, event.target.firstElementChild);
 });
 
 hamburgerButton.addEventListener('mouseout', () => {
